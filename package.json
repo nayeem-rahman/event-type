@@ -10,11 +10,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nayeem-rahman/event-type.git"
+    "url": "git+https://github.com/nayeemrmn/event-type.git"
   },
   "bugs": {
-    "url": "https://github.com/nayeem-rahman/event-type/issues"
+    "url": "https://github.com/nayeemrmn/event-type/issues"
   },
-  "homepage": "https://github.com/nayeem-rahman/event-type#readme",
+  "homepage": "https://github.com/nayeemrmn/event-type#readme",
   "description": "A general purpose, promise based event system."
 }
