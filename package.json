@@ -2,10 +2,22 @@
   "name": "event-type",
   "version": "0.2.0",
   "type": "module",
-  "main": "index.js",
-  "files": ["index.js"],
+  "main": "lib/mod.js",
+  "types": "lib/mod.d.ts",
+  "files": [
+    "lib/mod.js",
+    "lib/mod.d.ts"
+  ],
   "engines": {
     "node": ">=12.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "test": "node --experimental-modules lib/test.js",
+    "format": "prettier --write src/**/*.ts",
+    "format-check": "prettier --check src/**/*.ts",
+    "lint": "eslint --max-warnings 0 src/**/*.ts"
   },
   "author": "Nayeem Rahman",
   "license": "ISC",
@@ -17,5 +29,14 @@
     "url": "https://github.com/nayeemrmn/event-type/issues"
   },
   "homepage": "https://github.com/nayeemrmn/event-type#readme",
-  "description": "A general purpose, promise based event system."
+  "description": "A general purpose, promise based event system.",
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  }
 }
