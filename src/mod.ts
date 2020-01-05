@@ -8,6 +8,7 @@ const BREAK: unknown = Symbol("BREAK");
 /** Represents a stream of homogeneous events, each carrying some "detail"
  * (a value of type `T`). */
 export class EventType<T> {
+  // eslint-disable-next-line
   private signalDispatch: (entry: EventEntry<T>) => void = () => {};
   private next: Promise<EventEntry<T>> = new Promise(
     resolve => (this.signalDispatch = resolve)
