@@ -2,6 +2,8 @@
 
 A general purpose, promise based event system.
 
+[![Build Status](https://github.com/nayeemrmn/event-type/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/nayeemrmn/event-type/actions)
+
 ## Usage
 
 Attach some event emitter using `EventType.prototype.dispatch()`:
