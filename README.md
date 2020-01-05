@@ -2,7 +2,7 @@
 
 A general purpose, promise based event system.
 
-[![Build Status](https://github.com/nayeemrmn/event-type/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/nayeemrmn/event-type/actions)
+[![Build Status](https://github.com/nayeemrmn/event-type/workflows/ci/badge.svg?branch=master)](https://github.com/nayeemrmn/event-type/actions)
 
 ## Usage
 
